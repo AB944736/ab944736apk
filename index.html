@@ -6,7 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="format-detection" content="telephone=no">
-    <title>Single Page House for Sale</title>
+    <title>House for Sale</title>
     <meta name="description" content="">
 
     <link rel="stylesheet" href="css/normalize.css">
@@ -146,32 +146,6 @@
     </div><!-- end Stats and Tour -->    <!-- end Profiles -->
 
 
-    <!-- Contact Form -->
-    <div id="js-contact-form" class="modal-wrapper">
-        <div class="modal-overlay"></div>
-        <div class="modal contact-form">
-            <div class="js-modal-close modal__close">✕</div>
-            <div class="alert"></div>
-            <form name="contact" action="" class="pure-form pure-form-stacked" id="contact-form">
-                <label for="name">Your Name:</label>
-                <input id="name" name="name" class="input-text" type="text"></input>
-
-                <label for="email">Your Email:</label>
-                <input name="email" id="email" class="input-text" type="email" required />
-
-                <label for="subject">Subject:</label>
-                <input id="subject" name="subject" class="input-text" type="text"
-                    value="Interested in 4567 1st Avenue" />
-
-                <label for="body">Message:</label>
-                <textarea id="body" class="input-textarea" rows="5"
-                    type="text">Please contact me about the property for sale at 4567 1st Avenue!</textarea>
-
-                <button id="btn-email-send" type="button" data-loading-text="Sending..."
-                    class="button button--send"><span>Send</span></button>
-            </form>
-        </div>
-    </div>
 
     <!-- Footer -->
     <div class="footer">
@@ -185,17 +159,9 @@
     </script>
     <script src="js/vendor/fastclick.min.js"></script>
     <script src="js/vendor/lightgallery.min.js"></script>
-    <script>
-        $(function () {
-            $("#btn-email-send").click(function () {
-                $("#contact-form").hide(300);
-                $(".modal").find(".alert").show(300).html(
-                    "THIS IS AN EXAMPLE: <br><br>Your message has been sent. <br>An agent will contact you shortly."
-                    );
-            });
-        });
-    </script>
     <script src="js/plugins.js"></script>
+
+    
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
         (function (b, o, i, l, e, r) {
